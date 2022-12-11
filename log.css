@@ -1,0 +1,106 @@
+
+
+body{
+    margin: 0px;
+    padding: 0%;
+    height: 100%;
+    background-color: rgba(253, 253, 254, 0.929);
+    display: flexbox;
+    justify-content: center;
+   /* background :url("bg_image (2).jpeg");
+   background-repeat: no-repeat;
+   background-size: cover; */
+}
+
+
+.main{
+    border: 0px;
+    padding: 10px;
+    margin: 10px;
+    width: 680px;
+    height: 350px;
+    background-color:rgba(55, 51, 51, 0.845);
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 100px;
+    
+    margin-left: 580px;
+   
+}
+.nav{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.nav h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+input{
+    width: 650px;
+    margin: 10px;
+    height: 50px;
+    border-radius: 8px;
+    align-items: center;
+    border-color: rgb(224, 219, 219);
+   border-style: double;
+   font-size: 17px;
+   margin-left: 3.5px;
+   margin-right: 0px;
+  
+}
+#submit{
+width: 650px;
+background-color: hsla(240, 16%, 46%, 0.925);
+color: white;
+}
+p{
+    font-size: large;
+    font-style: italic;
+    color: rgb(98, 0, 255);
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 2px;
+  
+}
+a{
+    text-decoration: dotted;
+    align-content: center;
+   color:rgb(78, 78, 236);
+}
+
+.button{
+    text-align: center;
+}
+#button{
+    margin-top: 20px;
+    width: 180px;
+background-color: #15c23b;
+color: white;
+float: center;
+border: 2px solid rgba(4, 253, 58, 0.973);
+border-radius: 8px;
+}
+@media only screen and (max-width:600px){
+.desc{
+    display: none;
+}
+.body{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+   
+}
+.fb{
+    margin-top: 20px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.main{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+}
+
+}
+    
